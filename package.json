@@ -1,0 +1,23 @@
+{
+  "name": "tailwindtuto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development postcss ./src/tailwind.css -o ./resources/css/tailwind.css -w",
+    "build": "NODE_ENV=production postcss ./src/tailwind.css -o ./resources/css/tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.17",
+    "postcss-cli": "^10.0.0",
+    "tailwindcss": "^3.1.8"
+  },
+  "dependencies": {
+    "modules": "^0.4.0",
+    "node": "^17.7.2"
+  },
+  "description": ""
+}

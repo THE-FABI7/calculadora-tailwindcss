@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-dark: #000b1d;
+  --primary-default: #2c3e50;
+  --primary-light: #abbdcf;
+
+  --secondary-dark: #627273;
+  --secondary-default: #95a5a6;
+  --secondary-light: #e1f1f2;
+
+  --success-dark: #008969;
+  --success-default: #18bc9c;
+  --success-light: #97ffff;
+
+  --info-dark: #0165a8;
+  --info-default: #3498db;
+  --info-light: #b3ffff;
+
+  --warning-dark: #c06900;
+  --warning-default: #f39c12;
+  --warning-light: #ffff91;
+
+  --danger-dark: #b41909;
+  --danger-default: #e74c3c;
+  --danger-light: #ffcbbb;
+
+  --gray-dark: #01070d;
+  --gray-default: #343a40;
+  --gray-light: #b3b9bf;
+}
+
+html { 
+  background: url('/data/fondo.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+button {
+  @apply flex-1 p-5 text-2xl m-2 border-collapse rounded-full hover:bg-purple-100 transition duration-500;
+}
+
+.btn-operator {
+    @apply bg-orange-500;
+}
+
+.btn-backspace{
+  @apply bg-orange-500;
+}
+
+.btn-operand {
+    @apply bg-gray-700;
+}
+
+.btn-clear {
+    @apply bg-red-600;
+}
+
+.btn-equals {
+    @apply bg-success-dark;
+}
+
+
+.palette-5 .color-1 {
+  background-color: white;
+}
+.palette-5 .color-2 {
+  background-color: black;
+}
+
+
+
